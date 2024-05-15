@@ -1,4 +1,4 @@
-public class Overloading_Overriding {
+public class Overloading {
 
 
 int addTwoDigits(int a,int b){
@@ -12,7 +12,7 @@ int addTwoDigits(int a,int b){
     }
 
     public static void main(String[] args) {
-       Overloading_Overriding overloading = new Overloading_Overriding();
+       Overloading overloading = new Overloading();
         System.out.println(overloading.addTwoDigits(5,6));
         System.out.println(overloading.addTwoDigits(3.5,4.6));
     }

@@ -18,20 +18,27 @@ public class Multiple_Windows {
        driver.manage().window().maximize();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//Global wait instead Thread.sleep(10000);
         driver.get("https://omayo.blogspot.com/");
+//        driver.findElement(By.xpath("//button[@id='but2']")).click();
+//        driver.findElement(By.tagName("input")).click();
+//          driver.findElement(By.name("q")).sendKeys("musics");
+//          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+//         driver.findElement(By.className("gsc-search-button")).click();
+//         driver.findElement(By.xpath("//input[@onclick='launchConfirmation()']")).click();
+         driver.findElement(By.linkText("compendiumdev")).click();
 
 //        driver.findElement(By.linkText("Open a popup window")).click();
 //        driver.findElement(By.xpath("//div[@class='example']")).getText();
 
-        driver.findElement(By.className("dropbtn")).click();
-//        Thread.sleep(10000);
+//        driver.findElement(By.className("dropbtn")).click();
+////        Thread.sleep(10000);
+//
+//        //wait only for Gmail
+//        WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(50));
+//        WebElement gmailOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Gmail")));
+////        driver.findElement(By.linkText("Gmail")).click();//We can use web element
+//        gmailOption.click();
 
-        //wait only for Gmail
-        WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(50));
-        WebElement gmailOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Gmail")));
-//        driver.findElement(By.linkText("Gmail")).click();//We can use web element
-        gmailOption.click();
-
-
+//        driver.close();
     }
 
 }
