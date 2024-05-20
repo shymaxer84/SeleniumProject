@@ -1,10 +1,8 @@
-import org.apache.commons.lang3.Range;
-import org.bouncycastle.crypto.prng.RandomGenerator;
+
 
 import java.util.Random;
 import java.util.Scanner;
 
-import static java.lang.String.*;
 
 public class GuessingNumber {
 
@@ -12,7 +10,7 @@ public class GuessingNumber {
     public static void main(String[] args) {
         boolean flag =true;
         Random rand = new Random();
-        int secretnum = 0;
+        int secretnum ;
         int newnum = 0;
         int  guess = 0;
         int  count = 1;
