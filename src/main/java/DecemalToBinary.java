@@ -15,16 +15,16 @@ public class DecemalToBinary {
 
     public static String binary(int number) {
 
-        String binarynum = " ";
+        String remainder= " ";
 
 
         while (number > 0) {
 
-            binarynum = (number % 2) + binarynum;
+            remainder= (number % 2) + remainder;//remainder
             number = number / 2;
 
         }
 
-        return binarynum;
+        return remainder;
     }
 }
