@@ -1,0 +1,21 @@
+[
+  {
+    "question1": "Choose a form: 1. restaurant order"
+
+  },
+  {
+    "question2": "Choose a dish (options: pizza, hamburger):",
+    "field": "dish",
+    "options": "pizza, hamburger"
+
+  },
+  {
+    "question3": "Choose toppings (options: olives, onions, tomatoes):",
+    "field": "toppings",
+    "options": [
+      "olives",
+      "onions",
+      "tomatoes"
+    ]
+  }
+]
