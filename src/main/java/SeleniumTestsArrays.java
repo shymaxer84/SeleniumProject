@@ -1,18 +1,10 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
-
-import java.lang.reflect.Array;
-import java.time.Duration;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
 import static java.util.Collections.reverseOrder;
 
-public class SeleniumTests {
+public class SeleniumTestsArrays {
 //        @Test(description = "getsource")
 //        public void Tests(){
 //

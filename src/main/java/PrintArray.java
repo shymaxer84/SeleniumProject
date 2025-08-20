@@ -46,7 +46,12 @@ public class PrintArray{
         }
         for (i = 0; i<arr.length;i++)
         {
-
+            if (arr[i]==3&&arr[i]==5)
+            {
+                System.out.println("FizzBuzz");
+            } else if (arr[i]==3) {
+                
+            }
 
         }
        Arrays.sort(arr);

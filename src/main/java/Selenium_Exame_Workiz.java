@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Selenium_exame {
+public class Selenium_Exame_Workiz {
 
     WebDriver driver = new ChromeDriver();
 
