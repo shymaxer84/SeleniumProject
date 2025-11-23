@@ -12,4 +12,6 @@ public abstract class Furniture  {
     }
 
     public abstract String getDescription();// we can also remove abstract and initiation and write return "This is Furniture"
+
+
 }

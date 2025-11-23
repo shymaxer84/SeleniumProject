@@ -2,10 +2,12 @@ package Interface;
 
 public interface Transportable {
 
-    public  void go();
+      void go();
 
-    public default void stop()
+  default void stop()
     {
         System.out.println("Stop");
     }
+
+
 }

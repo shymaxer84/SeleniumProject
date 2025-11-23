@@ -13,4 +13,6 @@ public class LoginTests extends BaseTest {
         System.out.println("Tite of the page is : " +driver.getTitle());
 
     }
+
+
 }

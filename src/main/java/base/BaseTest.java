@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,6 +15,9 @@ public class BaseTest {
         driver = new  ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://admin-demo.nopcommerce.com/login");
+
+
+
     }
     @AfterTest
     public void tearDown(){
